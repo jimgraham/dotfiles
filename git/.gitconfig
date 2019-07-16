@@ -1,0 +1,43 @@
+[alias]
+    st    = status
+    s     = status -s
+    co    = checkout
+    ci    = commit
+    c     = commit
+    br    = branch
+    b     = branch
+    lg    = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    l     = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    lgnodist = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)' -p -- . ":(exclude)*.dist.*" ":(exclude)*/core/static/*"
+    la    = log --all --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    d     = diff
+    diffc = diff --cached
+    dc    = diff --cached
+    addp  = add --patch
+    ap    = add --patch
+
+[pull]
+    rebase = true
+[status]
+    showUntrackedFiles = all
+    
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[user]
+	name = Jim Graham
+	signingkey = 87EB7576
+	email = james.a.graham+gh@gmail.com
+
+[push]
+    default = current
+
+[commit]
+    gpgsign = true
+
+[core]
+	editor = emacs -nw
+	excludesfile = /Users/jgraham/.gitignore_global
