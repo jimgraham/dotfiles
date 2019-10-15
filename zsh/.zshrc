@@ -102,8 +102,6 @@ eval $(/usr/libexec/path_helper -s)
 
 # unsetopt share_history
 export PATH="/usr/local/sbin:$PATH"
-export SRC="$HOME/src/github.com/Shopify"
-export PSRC="$HOME/src/github.com/jimgraham"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

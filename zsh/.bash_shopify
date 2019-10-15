@@ -2,3 +2,6 @@
 if [[ -f /opt/dev/dev.sh ]] && [[ $- == *i* ]]; then
   source /opt/dev/dev.sh
 fi
+
+export SRC="$HOME/src/github.com/Shopify"
+export PSRC="$HOME/src/github.com/jimgraham"
