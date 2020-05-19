@@ -29,7 +29,7 @@
 
 [user]
 	name = Jim Graham
-	signingkey = 87EB7576
+	signingkey = 1B418DD1
 	email = james.a.graham+gh@gmail.com
 
 [push]
@@ -40,4 +40,4 @@
 
 [core]
 	editor = emacs -nw
-	excludesfile = /Users/jgraham/.gitignore_global
+	excludesfile = $HOME/.gitignore_global

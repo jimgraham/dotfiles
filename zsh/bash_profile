@@ -1,0 +1,9 @@
+export PATH=~/bin:/opt/local/bin:/usr/local/mysql/bin:/usr/texbin:/usr/local/bin:$HOME/.rvm/bin:/usr/local/heroku/bin:$PATH
+export PATH=/usr/local/bin:$HOME/.gems/bin:$HOME/bin:$PATH
+export EDITOR="code --wait"
+
+alias settitle='printf "\033]0;%s\007"'
+alias git="hub"
+alias g="git"
+
+# Extra stuff in .zshrc
