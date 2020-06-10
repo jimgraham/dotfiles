@@ -16,21 +16,25 @@
     addp  = add --patch
     ap    = add --patch
 
+[init]
+    templateDir = ~/.config/git/template/
+
 [pull]
     rebase = true
+
 [status]
     showUntrackedFiles = all
-    
+
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 
 [user]
-	name = Jim Graham
-	signingkey = 1B418DD1
-	email = james.a.graham+gh@gmail.com
+    name = Jim Graham
+    signingkey = 1B418DD1
+    email = james.a.graham+gh@gmail.com
 
 [push]
     default = current
@@ -39,5 +43,5 @@
     gpgsign = true
 
 [core]
-	editor = emacs -nw
-	excludesfile = $HOME/.gitignore_global
+    editor = code -w
+    excludesfile = $HOME/.gitignore_global
