@@ -6,4 +6,4 @@ fi
 export SRC="$HOME/src/github.com/Shopify"
 export PSRC="$HOME/src/github.com/jimgraham"
 
-if [ -e /Users/jimgraham/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/jimgraham/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then . $HOME/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
