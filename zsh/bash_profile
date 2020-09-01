@@ -6,4 +6,9 @@ alias settitle='printf "\033]0;%s\007"'
 alias git="hub"
 alias g="git"
 
-# Extra stuff in .zshrc
+# git aliases
+## delete merged branches:
+alias git-scrub='git branch --merged | grep -v "master" | xargs git branch -d'
+## delete all branches but master:
+alias git-clean='git branch | grep -v "master" | xargs git branch -D'
+
