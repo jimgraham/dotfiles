@@ -1,13 +1,19 @@
-git clone https://github.com/jimgraham/dot-files.git .dot-files
+# Assume clonedd to ~/dotfiles.
 
 # soft-link
-ln -s .dot-files/emacs/emacs .emacs
-ls -s .dot-files/git/gitignore_global .gitignore_global
+ln -sf $HOME/dotfiles/emacs/emacs .emacs
+ln -sf $HOME/dotfiles/git/gitignore_global .gitignore_global
+ln -sf $HOME/dotfiles/zsh/bash_profile .bash_profile
+ln -sf $HOME/dotfiles/zsh/bash_python .bash_python
+ln -sf $HOME/dotfiles/zsh/bash_shopify .bash_shopify
 
 # assume .zshrc exists
-echo "source $HOME/.dot-files/zsh/zshrc" >> .zshrc
+touch .zshrc
+echo "source $HOME/dotfiles/zsh/zshrc" >> .zshrc
 
 # files that need editing
-mkdir .gnupg
-ln -s .dot-files/gnupg/gpg-agent.conf .gnupg/gpg-agent.conf
-cp .dot-files/gnupg/gpg.conf .gnupg/gpg.conf
+if [ ! $SPIN ]; then
+  mkdir .gnupg
+  ln -sf $HOME/dotfiles/gnupg/gpg-agent.conf .gnupg/gpg-agent.conf
+  cp $HOME/dotfiles/gnupg/gpg.conf .gnupg/gpg.conf
+fi
