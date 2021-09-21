@@ -109,3 +109,5 @@ export PATH="/usr/local/sbin:$PATH"
 
 source $HOME/.bash_profile
 source $HOME/.bash_shopify
+
+[[ -f /opt/dev/sh/chruby/chruby.sh ]] && type chruby >/dev/null 2>&1 || chruby () { source /opt/dev/sh/chruby/chruby.sh; chruby "$@"; }
