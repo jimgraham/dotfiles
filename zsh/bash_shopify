@@ -1,9 +1,9 @@
-# load dev, but only if present and the shell is interactive
-if [[ -f /opt/dev/dev.sh ]] && [[ $- == *i* ]]; then
-  source /opt/dev/dev.sh
-fi
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
+[[ -f /opt/dev/sh/chruby/chruby.sh ]] && type chruby >/dev/null 2>&1 || chruby () { source /opt/dev/sh/chruby/chruby.sh; chruby "$@"; }
+if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then . $HOME/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 export SRC="$HOME/src/github.com/Shopify"
 export PSRC="$HOME/src/github.com/jimgraham"
 
-if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then . $HOME/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+
