@@ -33,7 +33,7 @@
 
 [user]
     name = Jim Graham
-    signingkey = 1B418DD1
+    signingkey = <replace_new_key>
     email = james.a.graham+gh@gmail.com
 
 [push]

@@ -1,1 +1,9 @@
 https://thejacklawson.com/2016/05/gpg/index.html
+
+https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0
+
+https://gist.github.com/bchiang7/47df18319d6507d82a1b3a34fce55dd8
+
+Replace the key in _both_ the .gitconfig file and gpg.conf file
+
+git config --global user.signingKey <new key>
