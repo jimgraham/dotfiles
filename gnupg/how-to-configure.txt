@@ -7,3 +7,8 @@ https://gist.github.com/bchiang7/47df18319d6507d82a1b3a34fce55dd8
 Replace the key in _both_ the .gitconfig file and gpg.conf file
 
 git config --global user.signingKey <new key>
+
+
+`brew install gnupg gnupg2` to avoid
+
+`/Users/jimgraham/.oh-my-zsh/plugins/gpg-agent/gpg-agent.plugin.zsh:12: command not found: gpgconf`

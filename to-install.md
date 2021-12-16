@@ -21,11 +21,9 @@
 
 ### Monosnap
 
-### BetterSnapTool
+### Tiles
 
-### Alfred
-
-### Wunderlist
+### Notion
 
 ### 1password
 

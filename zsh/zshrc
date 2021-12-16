@@ -60,6 +60,10 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# set up homebrew _before_ plugins
+[[ -x /usr/local/bin/brew ]] && eval $(/usr/local/bin/brew shellenv)
+export PATH=/opt/homebrew/bin:$PATH
+
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -99,14 +103,10 @@ zstyle ':completion:*' special-dirs true
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export GPG_TTY=$(tty)
-
 eval $(/usr/libexec/path_helper -s)
 
 # unsetopt share_history
 export PATH="/usr/local/sbin:$PATH"
-
-[[ -x /usr/local/bin/brew ]] && eval $(/usr/local/bin/brew shellenv)
 
 source $HOME/.bash_profile
 source $HOME/.bash_shopify
