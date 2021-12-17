@@ -18,5 +18,5 @@ if [ ! $SPIN ]; then
   cp $PWD/gnupg/gpg.conf ~/.gnupg/gpg.conf
   cat $PWD/git/gitconfig >> ~/.gitconfig
   mkdir -p ~/.config/karabiner
-  ln -sf $PWD/karabiner/config.json ~/.config/karabiner/.
+  ln -sf $PWD/karabiner/karabiner.json ~/.config/karabiner/.
 fi

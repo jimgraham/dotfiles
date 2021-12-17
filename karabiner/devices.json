@@ -1,0 +1,55 @@
+[
+    {
+        "device_id": 4294969573,
+        "is_built_in_keyboard": true,
+        "is_karabiner_virtual_hid_device": false,
+        "is_keyboard": true,
+        "is_pointing_device": false,
+        "location_id": 47,
+        "manufacturer": "Apple Inc.",
+        "product": "Apple Internal Keyboard / Trackpad",
+        "product_id": 834,
+        "serial_number": "FM7142500JTPDY9A7+EMT",
+        "transport": "SPI",
+        "vendor_id": 1452
+    },
+    {
+        "device_id": 4294969578,
+        "is_built_in_pointing_device": true,
+        "is_karabiner_virtual_hid_device": false,
+        "is_keyboard": false,
+        "is_pointing_device": true,
+        "location_id": 47,
+        "manufacturer": "Apple Inc.",
+        "product": "Apple Internal Keyboard / Trackpad",
+        "product_id": 834,
+        "serial_number": "FM7142500JTPDY9A7+EMT",
+        "transport": "SPI",
+        "vendor_id": 1452
+    },
+    {
+        "device_id": 4294996466,
+        "is_karabiner_virtual_hid_device": false,
+        "is_keyboard": true,
+        "is_pointing_device": false,
+        "location_id": 1874509265,
+        "manufacturer": "Microsoft",
+        "product": "Ergonomic Keyboard",
+        "product_id": 2071,
+        "transport": "Bluetooth Low Energy",
+        "vendor_id": 1118
+    },
+    {
+        "device_id": 4294996383,
+        "is_karabiner_virtual_hid_device": false,
+        "is_keyboard": false,
+        "is_pointing_device": true,
+        "location_id": 1250304,
+        "manufacturer": "Apple Inc.",
+        "product": "Magic Trackpad 2",
+        "product_id": 613,
+        "serial_number": "CC2932200NUJ17LAY",
+        "transport": "USB",
+        "vendor_id": 1452
+    }
+]
