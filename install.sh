@@ -19,4 +19,6 @@ if [ ! $SPIN ]; then
   cat $PWD/git/gitconfig >> ~/.gitconfig
   mkdir -p ~/.config/karabiner
   ln -sf $PWD/karabiner/karabiner.json ~/.config/karabiner/.
+  mkdir ~/.iterm2
+  ln -sf $PWD/iterm2/com.googlecode.iterm2.plist ~/.iterm2/.
 fi
