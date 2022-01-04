@@ -45,3 +45,8 @@
 [core]
     editor = code -w
     excludesfile = $HOME/.gitignore_global
+    
+[gpg]
+	program = gpg
+[pager]
+	branch = false
