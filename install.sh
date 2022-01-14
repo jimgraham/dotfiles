@@ -11,6 +11,9 @@ ln -sf $PWD/zsh/bash_shopify ~/.bash_shopify
 touch ~/.zshrc
 echo "source $PWD/zsh/zshrc" >> ~/.zshrc
 
+## pryrc
+ln -sf $PWD/pry/pryrc ~/.pryrc
+
 # files that need editing / not needed on `spin``
 if [ ! $SPIN ]; then
   mkdir ~/.gnupg
