@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+parent_folder="/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions"
+current_path="${parent_folder}/Current"
+current_version="$(readlink "$current_path")"
+current_version_path="${parent_folder}/${current_version}"
+# echo $current_version_path
+
+for dir in ${parent_folder}/*; do
+    # echo "checking $dir"
+    [ "$dir" = "$current_version_path" ] && continue
+    [ "$dir" = "$current_path" ]  && continue
+    echo "Removing $dir"
+    sudo rm -rf $dir
+done
+
+asdfasdfas
