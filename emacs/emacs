@@ -6,7 +6,7 @@
 (package-initialize)
 
 (load-file "~/.emacs.d/init.el")
-(load-file "~/git/emacs-for-python/epy-init.el")
+;;(load-file "~/git/emacs-for-python/epy-init.el")
 
 
 
