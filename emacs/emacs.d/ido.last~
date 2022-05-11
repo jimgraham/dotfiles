@@ -1,0 +1,51 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "jim/")
+ ("/Users/jim/waveapps/src/" . "next-accounting/")
+ ("/Users/jim/waveapps/" . "src/")
+ ("/Users/jim/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jim/Desktop/"
+ "/Users/jim/wavemisc/"
+ "/Users/jim/"
+ "/Users/jim/waveapps/src/next-accounting/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Delete_Wave_Laptop.md"
+ "yodlee_disconnect.txt"
+ ".emacs"
+ "code_structure.md"
+ "code_structu"
+ "next-accounting/"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jim/Desktop/" (22236 53591 0 0) "sportinglife10K.pdf" "Screen Shot 2016-02-23 at 10.48.42 AM [Feb 23].png" "printersSudo.txt" "original-pmset.txt" "Irma_and_Iain.PNG" "Delete_Wave_Laptop.md~" "Delete_Wave_Laptop.md" ".options" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/jim/" (22240 62437 0 0) "workspaces/" "Work/" "VirtualBox VMs/" "Virtual Machines.localized/" "Videos/" "texmf/" "Templates/" "Snapshots/" "Sites/" "Shared/" "scripts/" "Public/" "Projects/" "playbook.retry" "Pictures/" "perl5/" "OneDrive/" "Music/" "Movies/" "mbox" "Library/" "installed_apps.txt" "hg/" "Google Drive/" "git/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bintools/" "bin/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-mecano-5.0.5" ".zcompdump" ".yjp/" ".xsession~" ".xsession.bak" ".xsession-errors" ".xinputrc" ".Xcode/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".wapi/" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".vagrant-analytics" ".tvdbcache/" ".tvdb" ".Trash/" ".tomboy.log" ".tmuxp/" ".tmux.conf" ".tm_properties" ".thumbnails/" ".themes/" ".texmf-var/" ".texmf-config/" ".texlive2010/" ".texlive2007/" ".swt/" ".svk/" ".subversion/" ".sshterm/" ".ssh-old/" ".ssh/" ".sqlite_history" ".serverauth.9149" ".sane/" ".rvm/" ".ruby_inline/" ".rsync_imac.log" ".rsync.log" ".rnd" ".recently-used" ".realobjects/" ".rdebug_hist" ".rbenv/" ".rails-plugin-sources" ".qt/" ".PyCharm50/" ".pulse-cookie" ".pulse/" ".projects.ede" ".profile~" ".profile.mpsaved" ".profile" ".pgpass" ".perlbrew/" ".osxvncauth" ".oracle_jre_usage/" ".oh-my-zsh/" ".nvm/" ".npm/" ".node-gyp/" ".netrc" ".nautilus/" ".mysql_history" ".mplayer/" ".mozilla/" ".mono/" ".mongorc.js" ".module-starter/" ".metadata/" ".metacity/" ".matplotlib/" ".MakeMKV/" ".macports/" ".MacOSX/" ".login" ".local/" ".lesshst" ".jruby/" ".irb_history" ".ipython/" ".inkscape-etc/" ".inkscape/" ".icons/" ".ICEauthority" ".httpie/" ".history" ".histfile" ".hgignore_global" ".heroku/" ".gtkrc-1.2-gnome2" ".gtk-bookmarks" ".gstreamer-0.10/" ".gnucash/" ".gnome_private/" ".gnome2_private/" ".gnome2/" ".gnome/" ".gitignore~" ".gitignore" ".gitconfig" ".gimp-2.6/" ".gimp-2.2/" ".gems/" ".gemrc" ".gem/" ".gegl-0.0/" ".gdb_history" ".gconfd/" ".gconf/" ".freemind/" ".fonts.cache-1" ".fontconfig/" ".filezilla/" ".fastri-index" ".esd_auth" ".emacs~" ".emacs.d/" ".emacs" ".eclipse_keyring" ".eclipse/" ".ecb-tip-of-day.el" ".dvdcss/" ".DS_Store" ".dropbox/" ".dmrc" ".dbshell" ".cvspass" ".cups/" ".crash_report_preview" ".crash_report_frames" ".crash_report_checksum" ".cpan/" ".config/" ".citrix/" ".CFUserTextEncoding" ".CF89AA64" ".ccache/" ".cargo/" ".cache/" ".bzr.log" ".blurb/" ".bashrc~" ".bashrc" ".bash_profile~" ".bash_profile.macports-saved_2010-04-24_at_00:19:20" ".bash_profile" ".bash_logout" ".bash_history" ".babel.json" ".atom/" ".ansible/" "../" "./")
+
+ ("/Users/jim/wavemisc/" (22075 54458 0 0) "WPP Tide USD Complete Setup.png" "WPP Tide USD Callout 1.png" "WPP callout 3.png" "WPP callout 2.png" "WPP callout 1.png" "wave-logo.png" "vero_event_tracker.log" "VERO TEST ACCOUNT.txt" "use_cents.png" "Try-alignment.png" "Testing - Checking - really big.qfx" "test_s3_import.py" "test_pycharm/" "Stripe Tide CAD payment 1.png" "Stripe Tide CAD Callout 1.png" "Screen Shot 2015-10-30 at 2.59.29 PM [Oct 30].png" "Screen Shot 2015-10-28 at 2.51.56 PM [Oct 28].png" "s3_import_test.txt" "personal-je-classic.png" "new_button.png" "good_callout.png" "Github private keys -- pw -- ask.md" "gifs/" "Expense Reimbursement - On-Boarding 2015-05.pptx" "dev-talks/" "code-kata/" "Capilano2.jpg" "BENEFIT PLAN DESIGN.pdf" ".DS_Store" "../" "./")
+
+ ("/Users/jim/waveapps/" (22076 52991 0 0) "Vagrantfile" "vagrant-project-setup.gem" "test/" "ssh_config" "src/" "requirements.txt" "README.md" "provisioning/" "plugins/" "get_config.sh" "config.yml.sample" "config.yml" "CHANGES.md" ".vagrant/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jim/waveapps/src/" (22076 52964 0 0) "waveapps/" "spin-ach/" "sandbox/" "receipts/" "pronetwork/" "payroll/" "payments-web/" "payments-console/" "payments/" "notifications/" "next-wave/" "next-accounting/" "integrations-cde-proxy/" "integrations-cde/" "integrations/" "identity/" "chunnel/" "api/" "accounting-cde/" "accounting/" ".jshintrc" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/jim/waveapps/src/next-accounting/" (22071 34067 0 0) "server_settings/" "scripts/" "requirements.txt" "requirements/" "README.md" "package.json" "nextaccounting/" "logs/" "Gruntfile.js" "env/" "django.log" "deploy/" "create_requirements_hash.sh" "create_requirements_hash.py" "circle.yml" "bower.json" "actions/" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22022 49090 0 0) "Shared/" "jim/" "Guest/" "cindy/" ".localized" "../" "./")
+
+ ("/Users/jim/waveapps/src/next-accounting/nextaccounting/" (22045 3411 0 0) "wave_logging/" "wave_auth/" "templates/" "static/" "runtest.sh" "run_messaging_integration_tests.sh" "reports/" "registry/" "projection/" "Procfile" "nosetests.xml" "nextaccounting/" "metadata/" "messaging/" "manage.py" "journal_entry/" "infiniteruntest.sh" "importer/" "guid/" "core/" "common/" "command/" "businesses/" "api/" "account/" ".DS_Store" "../" "./")
+
+ ("/Users/jim/waveapps/src/next-accounting/nextaccounting/account/" (22063 48624 0 0) "tests/" "services.py" "serializers.py" "models.py" "migrations/" "factories.py" "exceptions.py" "eventlog.py" "constants.py" "aggregate.py" "__init__.py" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
