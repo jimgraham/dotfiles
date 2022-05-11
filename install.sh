@@ -30,7 +30,3 @@ if [ ! $SPIN ]; then
   mkdir ~/.iterm2
   ln -sf $PWD/iterm2/com.googlecode.iterm2.plist ~/.iterm2/.
 fi
-
-if [ $SPIN ]; then
-  export EDITOR='emacs -nw'
-fi

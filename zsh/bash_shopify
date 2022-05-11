@@ -5,5 +5,8 @@ if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then . $HOME/.nix-profile/etc
 export SRC="$HOME/src/github.com/Shopify"
 export PSRC="$HOME/src/github.com/jimgraham"
 
+if [ $SPIN ]; then
+  export EDITOR='emacs -nw'
+fi
 
 
