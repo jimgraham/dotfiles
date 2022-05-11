@@ -2,7 +2,7 @@
 
 # soft-link
 ln -sf $PWD/emacs/emacs ~/.emacs
-ln -sf $PWD/emacs/emacs.d ~/.emacs.d
+ln -sfn $PWD/emacs/emacs.d ~/.emacs.d
 ln -sf $PWD/git/gitignore_global ~/.gitignore_global
 ln -sf $PWD/zsh/bash_profile ~/.bash_profile
 ln -sf $PWD/zsh/bash_python ~/.bash_python
