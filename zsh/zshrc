@@ -69,7 +69,7 @@ export PATH=/opt/homebrew/bin:$PATH
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gitfast gpg-agent git-open ruby python git)
+plugins=(gitfast git gpg-agent git-open ruby python)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,8 +105,10 @@ export NVM_DIR="$HOME/.nvm"
 
 eval $(/usr/libexec/path_helper -s)
 
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
 # unsetopt share_history
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:/usr/local/opt/ruby/bin:$PATH"
 
 source $HOME/.bash_profile
 source $HOME/.bash_shopify
