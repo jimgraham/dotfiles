@@ -11,3 +11,5 @@ alias g="git"
 alias git-scrub='git branch --merged | grep -v "master" | grep -v "main" | xargs git branch -d'
 ## delete all branches but master:
 alias git-clean='git branch | grep -v "master" | grep -v "main" | xargs git branch -D'
+## reset to main and scrub
+alias git-main='git checkout main && git pull && git-scrub'
