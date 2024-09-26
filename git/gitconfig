@@ -10,6 +10,7 @@
     l     = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
     lgnodist = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)' -p -- . ":(exclude)*.dist.*" ":(exclude)*/core/static/*"
     la    = log --all --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    logb  = log --oneline main...
     d     = diff
     diffc = diff --cached
     dc    = diff --cached
@@ -38,6 +39,7 @@
 
 [push]
     default = current
+    autoSetupRemote = true
 
 [commit]
     gpgsign = true
@@ -45,8 +47,10 @@
 [core]
     editor = code -w
     excludesfile = $HOME/.gitignore_global
-    
+
 [gpg]
-	program = gpg
+    program = gpg
 [pager]
-	branch = false
+    branch = false
+[include]
+    path = /Users/jimgraham/.config/dev/gitconfig
