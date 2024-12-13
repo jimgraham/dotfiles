@@ -34,8 +34,8 @@
 
 [user]
     name = Jim Graham
-    signingkey = <replace_new_key>
-    email = james.a.graham+gh@gmail.com
+    signingKey = 76571064DB3D0473
+    email = jim.graham@shopify.com
 
 [push]
     default = current
