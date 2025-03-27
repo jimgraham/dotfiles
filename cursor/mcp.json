@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+        "Shopify Dev": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@shopify/dev-mcp@latest"
+            ]
+        },
+        "shopify-internal": {
+            "command": "/opt/dev/bin/dev",
+            "args": [
+                "mcp"
+            ]
+        }
+    }
+}

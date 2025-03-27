@@ -1,11 +1,12 @@
 export PATH=$PATH:/usr/local/mysql/bin:/usr/texbin:$HOME/.rvm/bin:$HOME/.gems/bin
 export EDITOR="code --wait"
+export LESS="-R -X -F"
 
+#-- aliases
 alias settitle='printf "\033]0;%s\007"'
-#alias git="hub"
 alias g="git"
 
-# git aliases
+#-- git aliases
 ## delete merged branches:
 alias git-scrub='git branch --merged | grep -v "master" | grep -v "main" | xargs git branch -d'
 ## delete all branches but master:
